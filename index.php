@@ -12,4 +12,7 @@ define("_TPLDIR_", _SITEDIR_ . "Templates/");
 define("_POSTDIR_", _SITEDIR_ . "Post/");
 define("_STDIR_", _SITEDIR_ . "Static/");
 // GET CONTROLLER FOR URL PARAMETERS
+require_once(_SYSDIR_ . "Template.php");
 require_once(_SYSDIR_ . "Directory.php");
+require_once(_SYSDIR_ . "Controller.php");
+require_once(_SYSDIR_ . "Views.php");
